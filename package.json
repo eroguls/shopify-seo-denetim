@@ -1,0 +1,21 @@
+{
+  "name": "shopify-seo-denetim",
+  "version": "0.1.0",
+  "description": "Shopify mağazasını site haritasından örnekleyip başlık, meta, canonical, noindex, h1, alt metin ve JSON-LD denetleyen komut satırı aracı.",
+  "type": "module",
+  "bin": {
+    "seo-denetim": "bin/seo-denetim.js"
+  },
+  "exports": "./src/crawl.js",
+  "files": ["bin", "src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["shopify", "seo", "audit", "sitemap", "json-ld"],
+  "repository": "github:eroguls/shopify-seo-denetim",
+  "author": "Salih Eroğul (https://saliherogul.com)",
+  "license": "MIT"
+}
